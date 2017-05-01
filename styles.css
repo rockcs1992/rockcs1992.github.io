@@ -1,0 +1,109 @@
+#app{
+	overflow: scroll;
+}
+
+body {
+	background-image: url('assets/background2.jpg'),url('assets/background.jpg');
+}
+
+section {
+	margin-bottom: 5px;
+}
+
+#canvas {
+	width:66%;
+	display:inline-block;
+	position:absolute;
+	right:1%;
+}
+
+#control-panel {
+	display:inline-block;
+	width:30%;
+	max-height:640px;
+	overflow:scroll;
+	padding-left: 2%;
+}
+
+h1 {
+	text-align:center;
+}
+
+.audio-block-wrapper {
+	width:100%;
+	overflow:scroll;
+	padding-left:2px;
+}
+
+#title {
+	background-color: 
+}
+
+#add-button {
+	padding:15px;
+	text-align: center;
+}
+
+#add-button button{
+	padding:15px;
+	width:50%;
+}
+
+.audio-unit {
+	padding: 10px;
+	display:inline-block;
+	overflow:hidden;
+	width:100%;
+	border-bottom: 2px solid black;
+}
+
+.input{
+	width:10%;
+	margin-right: 4%;
+}
+
+.basic-select{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+section span{
+	margin-left: 5%;
+}
+
+table {
+	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+	border-collapse:
+	collapse; border-spacing: 0;
+}
+
+
+
+td, th {
+	border: 1px solid transparent; /* No more visible border */
+	height: 30px;
+	transition: all 0.3s; /* Simple transition for hover effect */
+}
+
+th {
+	background: #DFDFDF; /* Darken header a bit */
+	font-weight: bold;
+}
+
+td {
+	background: #FAFAFA;
+	text-align: center;
+}
+
+/* Cells in even rows (2,4,6...) are one color */
+tr:nth-child(even) td { background: #C8cbd1; }
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells) */
+tr:nth-child(odd) td { background: #FEFEFE; }
+
+tr td:hover { background: #666; color: #FFF; } /* Hover cell effect! */
+
+#thead td {
+	background-color: #A7AFB9;
+}

@@ -1,7 +1,30 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+ 	<head>
+ 		<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+
+
+ 		<link rel="stylesheet" href="./styles.css" >
+ 	</head>
+	<body>
+		<h1 id="title">SOUND HOCKEY!</h1>
+		<div id="app">
+			<!-- <h4 v-on:click="addAudioUnit">Add Audio Unit</h4> -->
+			
+	  		<!-- <select v-model='synthSelect'>
+	  			<option>MembraneSynth</option>
+	  			<option>FMSynth</option>
+	  		</select>
+			
+			<span v-for="param in synthParams">
+				<span>{{param}}</span>
+				<input type="checkbox" v-bind:id="param" v-bind:value="param" v-model="checkedParams" />
+			</span>
+			<button v-on:click='addNewBall'>Confirm</button>
+			<br /> -->
+			<!-- <button v-on:click='triggerSound'>Trigger</button> -->
+	    </div>
+	    <div id="canvas"></div>
+		<script src="bundle.js"></script>
+  </body>
 </html>
